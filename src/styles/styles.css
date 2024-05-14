@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(169, 58, 58);
+    padding: 12px;
+    color: aliceblue;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.carrito{
+    color: aliceblue;
+}
+
+.products-container{
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+}
